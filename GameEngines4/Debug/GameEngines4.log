@@ -1,0 +1,7 @@
+﻿  GameScene.cpp
+F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\Engine\Rendering\3D\GameObject.h(94,21): warning C4018: '<': signed/unsigned mismatch
+F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\GAME\Scenes\GameScene.cpp(85): message : see reference to function template instantiation 'void GameObject::RemoveComponent<ComponentC>(void)' being compiled
+F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\Engine\Rendering\3D\GameObject.h(88): warning C4715: 'GameObject::GetComponent<ComponentA>': not all control paths return a value
+F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\Engine\Rendering\3D\GameObject.h(88): warning C4715: 'GameObject::GetComponent<ComponentC>': not all control paths return a value
+F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\Engine\Rendering\3D\GameObject.h(88): warning C4715: 'GameObject::GetComponent<ComponentB>': not all control paths return a value
+  GameEngines4.vcxproj -> F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\Debug\GameEngines4.exe
