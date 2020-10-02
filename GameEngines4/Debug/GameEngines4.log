@@ -1,7 +1,68 @@
-﻿  GameScene.cpp
-F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\Engine\Rendering\3D\GameObject.h(94,21): warning C4018: '<': signed/unsigned mismatch
-F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\GAME\Scenes\GameScene.cpp(85): message : see reference to function template instantiation 'void GameObject::RemoveComponent<ComponentC>(void)' being compiled
-F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\Engine\Rendering\3D\GameObject.h(88): warning C4715: 'GameObject::GetComponent<ComponentA>': not all control paths return a value
-F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\Engine\Rendering\3D\GameObject.h(88): warning C4715: 'GameObject::GetComponent<ComponentC>': not all control paths return a value
-F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\GameEngines4\Engine\Rendering\3D\GameObject.h(88): warning C4715: 'GameObject::GetComponent<ComponentB>': not all control paths return a value
-  GameEngines4.vcxproj -> F:\game engine\GameEnginges4\assignment4\GameEngines4 - Copy\Debug\GameEngines4.exe
+﻿  ComponentB.cpp
+  ComponentC.cpp
+  ComponentA.cpp
+  CollisionHandler.cpp
+  CollisionDetection.cpp
+  Camera.cpp
+  Debugger.cpp
+  CoreEngine.cpp
+  GameObject.cpp
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Rendering\3D\GameObject.cpp(40,20): warning C4018: '<': signed/unsigned mismatch
+  EventListener.cpp
+  Game1.cpp
+  GameScene.cpp
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Rendering\3D\GameObject.h(91,21): warning C4018: '<': signed/unsigned mismatch
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\GAME\Scenes\GameScene.cpp(85): message : see reference to function template instantiation 'void GameObject::RemoveComponent<ComponentC>(void)' being compiled
+  LightSource.cpp
+  LoadOBJModel.cpp
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Rendering\3D\LoadOBJModel.cpp(164,20): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Window.cpp
+  Timer.cpp
+  StartScene.cpp
+  Mesh.cpp
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Rendering\3D\Mesh.cpp(48,50): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Rendering\3D\Mesh.cpp(58,20): warning C4018: '<': signed/unsigned mismatch
+  Model.cpp
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Rendering\3D\Model.cpp(81,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Rendering\3D\GameObject.h(85): warning C4715: 'GameObject::GetComponent<ComponentC>': not all control paths return a value
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Rendering\3D\GameObject.h(85): warning C4715: 'GameObject::GetComponent<ComponentA>': not all control paths return a value
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Rendering\3D\GameObject.h(85): warning C4715: 'GameObject::GetComponent<ComponentB>': not all control paths return a value
+  Compiling...
+  ShaderHandler.cpp
+  TextureHandler.cpp
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Graphics\TextureHandler.cpp(61,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Graphics\TextureHandler.cpp(62,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  MouseEventListener.cpp
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Event\MouseEventListener.cpp(88,44): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Event\MouseEventListener.cpp(90,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Event\MouseEventListener.cpp(91,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Event\MouseEventListener.cpp(98,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+F:\game engine\GameEngines 5\GameEngines5\GameEngines4\Engine\Event\MouseEventListener.cpp(99,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SceneGraph.cpp
+  MaterialHandler.cpp
+  MaterialLoader.cpp
+  OctSpatialPartition.cpp
+  Generating Code...
+  GameEngines4.vcxproj -> F:\game engine\GameEngines 5\GameEngines5\Debug\GameEngines4.exe

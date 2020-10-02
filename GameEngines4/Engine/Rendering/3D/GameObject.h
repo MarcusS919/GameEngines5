@@ -35,7 +35,7 @@ public:
 		
 		//TComponent* tComponentPTR = new Component();
 		TComponent* tComponentPTR = new TComponent();
-		std::cout << "adding component" << tComponentPTR<<"\n";
+		std::cout << "adding component \n";
 
 		//to verify if the component being added is a child of the Component class
 		if (dynamic_cast<Component*>(tComponentPTR) == nullptr) {
@@ -59,13 +59,11 @@ public:
 		componentList.push_back(tComponentPTR);
 
 		tComponentPTR->OnCreate(this);
-		std::cout << "Component: " << tComponentPTR << " has been created\n";
+		std::cout << "Component: has been created\n";
 	}
 
 	template<typename TComponent>
 	Component* GetComponent() {
-
-		std::cout << "entered get component\n";
 
 		if (componentList.size() <= 0) {
 			std::cout << "Component list is empty\n";
@@ -73,8 +71,7 @@ public:
 		}
 
 		for (auto element : componentList) {
-			std::cout << "entered for loop for get\n";
-			
+
 			//if (tComponentPTR == dynamic_cast<TComponent*>(element)) {
 			if(dynamic_cast<TComponent*>(element)!=nullptr){
 				std::cout << "return tcompptr\n";
@@ -92,7 +89,6 @@ public:
 		std::cout << "entered RemoveComponent\n";
 
 		for (int i = 0; i < componentList.size(); i++) {
-			std::cout << "entered for loop for delete\n";
 
 			if (dynamic_cast<TComponent*>(componentList[i])!=nullptr) {
 				componentList.erase(componentList.begin() + i);
